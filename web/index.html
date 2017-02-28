@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDL-Dart and Dart SDK 22 Bug</title>
+
+    <link rel="stylesheet" href="packages/mdl/assets/styles/material.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en'
+          rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link id="theme" rel="stylesheet" href="https://cdn.rawgit.com/MikeMitterer/dart-mdl-theme/v1.18.2/deep_purple-red/material.min.css">
+</head>
+
+<body>
+<div class="mdl-panel mdl-panel--with-heading mdl-panel--accent mdl-panel--light-text mdl-panel--shadow">
+    <div class="mdl-panel__heading">Bug Demo</div>
+    <div class="mdl-panel__content">
+        <button id="alert-button" class="mdl-button mdl-button--raised mdl-button--primary mdl-ripple-effect">
+            Alert
+        </button>
+    </div>
+</div>
+<script defer src="packages/browser/dart.js"></script>
+<script type="application/dart" src="main.dart" ></script>
+</body>
+
+</html>
