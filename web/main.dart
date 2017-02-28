@@ -27,7 +27,7 @@ class App extends MaterialApplication {
         final MaterialAlertDialog alertDialog = new MaterialAlertDialog();
 
         button.onClick.listen((MouseEvent event) {
-            alertDialog.open("Alert Message").show();
+            alertDialog("Alert Message").show();
         });
 
     }
