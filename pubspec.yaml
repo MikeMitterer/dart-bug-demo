@@ -17,8 +17,7 @@ dependencies:
   console_log_handler: ^0.2.0
     # path: /Volumes/Daten/DevLocal/DevDart/ConsoleLogHandler
 
-  mdl:
-    path: /Volumes/Daten/DevLocal/DevDart/MaterialDesignLite
+  mdl: ^1.18.3
 
   di: ^3.3.0
 
